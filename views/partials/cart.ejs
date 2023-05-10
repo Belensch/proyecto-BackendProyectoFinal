@@ -1,0 +1,49 @@
+
+  <!-- Modal 1-->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Desea eliminar el producto?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" id="btnBorrar" data-bs-dismiss="modal">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container mt-4 mb-4 bg-light" style="width: 500px;">
+    <h2>Mi carrito</h2>
+    <% if(carrito && carrito.productos.length > 0) { %>
+      <table id="table" class="table table-success table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th scope="col">Producto</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Cantidad</th>
+            </tr>
+        </thead>
+          <tbody id="tbody">
+            <% carrito.productos.forEach(producto => { %>
+                <tr class="cart" id="<%= producto.id %>" data-bs-toggle="modal" data-bs-target="#myModal">
+                  <th scope="col"><%= producto.title %></th>
+                      <th scope="col">$<%= producto.price %></th>
+                      <th scope="col"><%= producto.cantidad %></th>
+                  </tr>
+            <% }) %>
+          </tbody>
+      </table>
+      <span>Total: $</span>
+      <span><%= carrito.total %></span>
+      <br><br>
+      <button type="button" class="btn btn-success" id="btnComprar" >Comprar</button>
+    <% } else { %>
+      <div>El Carrito esta vacio</div>
+    <% } %>
+
+
+</div>

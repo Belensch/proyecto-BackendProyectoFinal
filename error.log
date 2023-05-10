@@ -1,0 +1,462 @@
+[2023-03-13T16:18:11.105] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postLoginController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/login.js:5:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:175:3)
+[2023-03-13T16:20:21.813] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postLoginController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/login.js:5:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\index.js:175:3)
+[2023-03-13T16:23:01.149] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postRegisterController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/register.js:9:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:539:35)
+    at finish (node:internal/streams/writable:754:10)
+[2023-03-13T16:28:29.413] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postRegisterController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/register.js:9:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:539:35)
+    at finish (node:internal/streams/writable:754:10)
+[2023-03-13T16:30:05.234] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postRegisterController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/register.js:9:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:539:35)
+    at finish (node:internal/streams/writable:754:10)
+[2023-03-13T16:31:01.627] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postRegisterController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/register.js:9:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:539:35)
+    at finish (node:internal/streams/writable:754:10)
+[2023-03-13T16:35:12.528] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'find')
+    at UsuariosDaoMongoDb.listarAll (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:32:47)
+    at postRegisterController (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/register.js:9:40)
+    at Layer.handle [as handle_request] (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:49:68)
+    at C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\lib\make-middleware.js:155:11
+    at WriteStream.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:539:35)
+    at finish (node:internal/streams/writable:754:10)
+[2023-03-13T16:47:14.157] [ERROR] default - error AL ENVIAR RestException [Error]: The Messaging Service Sid  is invalid.
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendWhatsAppNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 400,
+  code: 21705,
+  moreInfo: 'https://www.twilio.com/docs/errors/21705',
+  details: undefined
+}
+[2023-03-13T16:47:14.398] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials de21-20020a05620a371500b007422fd3009esm432452qkb.20 - gsmtp
+    at SMTPConnection._formatError (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials de21-20020a05620a371500b007422fd3009esm432452qkb.20 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-03-13T16:53:00.410] [ERROR] default - error AL ENVIAR RestException [Error]: The requested resource /2010-04-01/Accounts/AC62e0abfb251acad02a4d29272d39ce36/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendWhatsAppNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T16:57:09.186] [ERROR] default - error AL ENVIAR RestException [Error]: The requested resource /2010-04-01/Accounts/AC62e0abfb251acad02a4d29272d39ce36/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendWhatsAppNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:01:57.805] [ERROR] default - error AL ENVIAR RestException [Error]: The requested resource /2010-04-01/Accounts/AC62e0abfb251acad02a4d29272d39ce36/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendWhatsAppNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:09:34.441] [ERROR] default - error AL ENVIAR RestException [Error]: The requested resource /2010-04-01/Accounts/AC62e0abfb251acad02a4d29272d39ce36/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendSMSNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:11:57.575] [ERROR] default - error AL ENVIAR RestException [Error]: The requested resource /2010-04-01/Accounts/AC62e0abfb251acad02a4d29272d39ce36/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendSMSNewUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:41:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:21:13.184] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendSMSToUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:18:25) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-03-13T17:22:35.691] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendSMSToUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:18:25) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-03-13T17:24:28.192] [ERROR] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendSMSToUser (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:18:25) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-03-13T17:34:56.141] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: The requested resource /2010-04-01/Accounts/AC1e1d52ecc685be5b1274f60512ec9e93/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:34:56.381] [ERROR] default - ERROR AL ENVIAR SMS new cart RestException [Error]: The requested resource /2010-04-01/Accounts/AC1e1d52ecc685be5b1274f60512ec9e93/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:76:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:44:42.357] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: The requested resource /2010-04-01/Accounts/AC1e1d52ecc685be5b1274f60512ec9e93/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T17:46:15.685] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: The requested resource /2010-04-01/Accounts/AC1e1d52ecc685be5b1274f60512ec9e93/Messages.json was not found
+    at success (C:\Users\gabri\OneDrive\Documentos\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/OneDrive/Documentos/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 404,
+  code: 20404,
+  moreInfo: 'https://www.twilio.com/docs/errors/20404',
+  details: undefined
+}
+[2023-03-13T18:53:47.112] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.112] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.129] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.154] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.196] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.223] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.698] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.700] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.734] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.766] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.829] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T18:53:47.839] [FATAL] default - Error en servidor: Error: bind EADDRINUSE null:8080
+[2023-03-13T19:03:07.067] [FATAL] default - Error en servidor: Error: listen EADDRINUSE: address already in use :::8080
+[2023-05-07T20:13:49.978] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'toString')
+    at transformMongoModel (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:5:38)
+    at transformMongoObject (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:16:22)
+    at UsuariosDaoMongoDb.listar (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:25:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getProfile (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/profile.Controllers.js:8:21)
+[2023-05-07T20:19:30.383] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'toString')
+    at transformMongoModel (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:5:38)
+    at transformMongoObject (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:16:22)
+    at UsuariosDaoMongoDb.listar (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:25:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getProfile (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/profile.Controllers.js:8:21)
+[2023-05-07T20:22:35.809] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'toString')
+    at transformMongoModel (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:5:38)
+    at transformMongoObject (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/objectUtils.js:16:22)
+    at UsuariosDaoMongoDb.listar (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/container/ContenedorMongoDb.js:25:20)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async getProfile (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/controller/profile.Controllers.js:8:21)
+[2023-05-07T20:37:29.000] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-05-07T20:37:29.102] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials w129-20020a0ded87000000b0054f8b1f21e5sm607702ywe.85 - gsmtp
+    at SMTPConnection._formatError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials w129-20020a0ded87000000b0054f8b1f21e5sm607702ywe.85 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-05-07T20:39:42.276] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-05-07T20:39:42.582] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 2-20020a250402000000b00b7b0aba5cccsm2014793ybe.22 - gsmtp
+    at SMTPConnection._formatError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 2-20020a250402000000b00b7b0aba5cccsm2014793ybe.22 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-05-07T20:42:27.450] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-05-07T20:42:27.569] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 7-20020a250a07000000b00b9dcd17cc2dsm2015520ybk.46 - gsmtp
+    at SMTPConnection._formatError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials 7-20020a250a07000000b00b9dcd17cc2dsm2015520ybk.46 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-05-07T20:43:45.958] [ERROR] default - error AL ENVIAR WHATSAPP new cart RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\twilio\lib\base\Version.js:79:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async sendMessageNewCart (file:///C:/Users/gabri/Documents/CODERHOUSE/BackEnd/PreEntregaProyecto1BackEnd/src/utils/twilio.js:65:25) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-05-08T14:14:10.222] [ERROR] default - Error: productos validation failed: stock: Path `stock` is required., title: Path `title` is required.
+    at ValidationError.inspect (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
+    at C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    stock: ValidatorError: Path `stock` is required.
+        at validate (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaNumber.SchemaType.doValidate (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'stock',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    title: ValidatorError: Path `title` is required.
+        at validate (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'title',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'productos validation failed'
+}
+[2023-05-08T14:36:56.639] [ERROR] default - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast.js:342:32)
+      at model.Query.Query.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5341:12),
+  valueType: 'string'
+}
+[2023-05-08T21:13:56.871] [ERROR] default - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast.js:342:32)
+      at model.Query.Query.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5341:12),
+  valueType: 'string'
+}
+[2023-05-08T21:14:06.857] [ERROR] default - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: '"undefined"',
+  kind: 'ObjectId',
+  value: 'undefined',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast.js:342:32)
+      at model.Query.Query.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5341:12),
+  valueType: 'string'
+}
+[2023-05-08T21:23:37.456] [ERROR] default - CastError: Cast to ObjectId failed for value "{ id: '6418f28916894060b8c7aaf9', email: 'a@a' }" (type Object) at path "_id" for model "usuarios"
+    at model.Query.exec (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:4913:21)
+    at model.Query.Query.then (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5012:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  messageFormat: undefined,
+  stringValue: `"{ id: '6418f28916894060b8c7aaf9', email: 'a@a' }"`,
+  kind: 'ObjectId',
+  value: { id: '6418f28916894060b8c7aaf9', email: 'a@a' },
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast\objectid.js:25:12)
+      at ObjectId.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schema\objectid.js:246:12)
+      at ObjectId.SchemaType.applySetters (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1201:12)
+      at ObjectId.SchemaType._castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1648:15)
+      at ObjectId.SchemaType.castForQuery (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1636:15)
+      at ObjectId.SchemaType.castForQueryWrapper (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\schematype.js:1612:20)
+      at cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\cast.js:286:34)
+      at model.Query.Query.cast (C:\Users\gabri\Documents\CODERHOUSE\BackEnd\PreEntregaProyecto1BackEnd\node_modules\mongoose\lib\query.js:5341:12),
+  valueType: 'Object'
+}

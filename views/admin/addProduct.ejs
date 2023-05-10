@@ -1,0 +1,37 @@
+<%- include('templetes/head', {tituloWeb:'Agregar'}) %>
+
+    <body>
+        <div class="container my-3">
+            <div class="jumbotron">
+                <header>
+                    <%- include('templetes/navbar') %>
+                </header>
+                <div class="containger-fluid alert-primary mt-3 mb-3">
+                    <div class="p-3">
+                        <h1>Agregar Producto</h1>
+                    </div>
+                    <form class="form mx-3" action="" method="post" role="form" autocomplete="off">
+                        <div>
+                            <label for="title">Producto</label>
+                            <input id="title" class="form-control" type="text" name="title" required />
+                            <br />
+                            <label for="stock">stock</label>
+                            <input id="stock" class="form-control" type="number" name="stock" required />
+                            <br />
+                            <label for="price">Precio</label>
+                            <input id="price" class="form-control" type="number" name="price" required />
+                            <br />
+                            <label for="description">Descripción</label>
+                            <input id="description" class="form-control" type="text" name="description" required />
+                            <br />
+                            <label for="thumbnail">Imágen</label>
+                            <input id="thumbnail" class="form-control" type="text" name="thumbnail" required />
+                        </div>
+                        <input class="btn btn-success my-3" type="submit" value="Agregar" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>

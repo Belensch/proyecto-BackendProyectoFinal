@@ -1,0 +1,42 @@
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ingrese cantidad</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+                <input type="number" class="form-control"  id="inputCantidad" placeholder="1" required>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" id="btnGuardar" data-bs-dismiss="modal">Guardar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container mt-4 mb-4 bg-light" style="width: 500px;">
+    <h2>Productos</h2>
+    <table id="table" class="table table-primary table-hover">
+        <thead class="tableHead">
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Price</th>
+                <th scope="col">Thumbnail</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <% productos.forEach(producto => { %>
+                <tr class="product" id="<%= producto.id %>" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <th scope="col" class="titleProd"><%= producto.title %></th>
+                    <th scope="col" class="priceProd">$<%= producto.price %></th>
+                    <th scope="col"><img src="<%= producto.thumbnail %>" alt="imagen de <%= producto.title %> " style="height: 90px; width: 70px;" class="imgProd"></th>
+                </tr>
+            <% }) %>
+        </tbody>
+    </table>
+    <br>
+
+</div>

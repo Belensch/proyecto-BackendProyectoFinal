@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <%-include('../partials/head.ejs')%>
+    </head>
+
+    <body>
+        <header>
+            <%-include('../partials/navbar.ejs')%>
+        </header>
+        <div class="container bg-light profileModal my-3">
+            <div>
+                <div class="containger-fluid alert-primary mt-3 mb-3">
+                    <div>
+                        <h1 class="h1Profile">Mi perfil</h1>
+                    </div>
+                    <div class="row container justify-content-center py-3">
+                        <div class="col-4 p-0">
+                            <img src="../uploads/<%= avatar %>" alt="avatar" class="px-3 imgProfile" width="100%">
+                        </div>
+                        <div class="col-8 p-0">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h1><strong>
+                                            <%= name %>
+                                        </strong></h1>
+                                    <h4><strong>
+                                            <%= age %> años
+                                        </strong></h4>
+                                </li>
+                                <li class="list-group-item"><strong>Dirección: </strong>
+                                    <%= address %>
+                                </li>
+                                <li class="list-group-item"><strong>Teléfono: </strong>
+                                    <%= phone %>
+                                </li>
+                                <li class="list-group-item"><strong>Email: </strong>
+                                    <%= email %>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
