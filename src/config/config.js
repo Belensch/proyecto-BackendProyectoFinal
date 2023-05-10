@@ -1,17 +1,31 @@
-import * as dotenv from 'dotenv'
-dotenv.config()
+import minimist from "minimist";
+import dotenv from "dotenv";
+dotenv.config();
 
-export const urlMongo = process.env.URL_MONGO
-export const secretSessionMongo = process.env.SECRET_SESSION_MONGO
-export const port = process.env.PORT || 8080
-export const userMailAdmin = process.env.USER_MAILADMIN
-export const passMailAdmin = process.env.PASS_MAILADMIN
-export const twilioSID = process.env.TWILIO_ACCOUNT_SID
-export const twilioMessagingServiceSid = process.env.TWILIO_MESSAGING_SERVICE_SID
-export const twilioToken = process.env.TWILIO_AUTH_TOKEN
-export const twilioPhoneNumber = process.env.TWILIO_PHONE_NUMBER
-export const twilioWhatsAppPhoneNumber = process.env.TWILIO_WHATSAPP_PHONE_NUMBER
-export const adminWhatsAppPhoneNumber = process.env.ADMIN_WHATSAPP_PHONE_NUMBER
-export const adminPhoneNumber = process.env.ADMIN_PHONE_NUMBER
+const argv = minimist(process.argv.slice(2), {
+    alias: {
+        p: "port",
+        m: "mode",
+    },
+    default: {
+        port: process.argv.PORT || 8080,
+        mode: "fork",
+    },
+});
 
+const PORT = process.env.PORT || 8080;
 
+export default {
+    PORT: PORT,
+    mode: argv.mode,
+    mongoRemote: {
+        cnxStr: process.env.MONGODB_REMOTE,
+        options: {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        }
+    },
+    fileSystem: {
+        path: "./DB",
+    }
+};

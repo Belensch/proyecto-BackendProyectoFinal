@@ -11,7 +11,7 @@ socket.on("products", (products) => {
   btsAddToCart();
 });
 
-// agregar el producto al carrito
+// agregar producto al carrito
 function btsAddToCart() {
   const btnAddToCartList = document.getElementsByClassName("btnAddToCart");
   for (let i = 0; i < btnAddToCartList.length; i++) {
@@ -26,7 +26,7 @@ function btsAddToCart() {
   }
 }
 
-// producto Agregado
+// producto agregado
 socket.on("addedProduct", () =>{
   const toastLiveExample = document.getElementById("liveToast");
   const toast = new bootstrap.Toast(toastLiveExample);

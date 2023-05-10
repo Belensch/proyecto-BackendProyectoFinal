@@ -2,8 +2,12 @@ import express from "express";
 import { Server as HttpServer } from "http";
 import { Server as Socket } from "socket.io";
 
-import { productosDao } from "../../daos/index.js";
-import { carritosDao } from "../../daos/index.js";
+import ProductsDAOMongoDB from "../../models/dao/Products.DAO.js";
+import CartDAOMongoDB from "../../models/dao/Cart.DAO.js";
+import logger from "../../config/winston.js";
+
+const productsApi = new ProductsDAOMongoDB();
+const cartApi = new CartDAOMongoDB();
 
 const app = express();
 const httpServer = new HttpServer(app);
@@ -32,12 +36,12 @@ export default async function configurarSocket(socket) {
 
       if (productInCar !== undefined) {
         productInCar.qty += 1;
-        await carritosDao.actualizar(cart._id, { items: cart.items });
+        await cartApi.update(cart._id, { items: cart.items });
 
         socket.emit("addedProduct");
       } else {
         cart.items.push({...product._doc, qty: 1});
-        await carritosDao.actualizar(cart._id, { items: cart.items });
+        await cartApi.update(cart._id, { items: cart.items });
 
         socket.emit("addedProduct");
       }
@@ -49,7 +53,7 @@ export default async function configurarSocket(socket) {
 
 async function getProducts() {
   try {
-    const productsDB = await productosDao.listarAll();
+    const productsDB = await productsApi.getAll();
     return productsDB;
   } catch (error) {
     logger.info(error);
@@ -58,7 +62,7 @@ async function getProducts() {
 
 async function getCart(userEmail) {
   try {
-    const cartsDB = await carritosDao.listarAll();
+    const cartsDB = await cartApi.getAll();
     const cart = cartsDB.find(cart => cart.email == userEmail);
     return cart;
   } catch (error) {
@@ -68,7 +72,7 @@ async function getCart(userEmail) {
 
 async function getProduct(productID) {
   try {
-    const product = await productosDao.listar(productID);
+    const product = await productsApi.getById(productID);
     return product[0];
   } catch (error) {
     logger.info(error);

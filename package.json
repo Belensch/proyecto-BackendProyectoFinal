@@ -1,41 +1,38 @@
 {
-  "name": "preentregaproyecto1",
+  "name": "entregaproyectofinal",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/main.js"
+    "start": "node main.js",
+    "server": "nodemon main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
-    "connect-mongo": "^4.6.0",
+    "cluster": "^0.7.7",
+    "compression": "^1.7.4",
+    "connect-mongo": "^5.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "firebase-admin": "^11.4.1",
-    "knex": "^2.4.0",
-    "log4js": "^6.9.1",
+    "logger": "^0.0.1",
     "minimist": "^1.2.8",
     "moment": "^2.29.4",
-    "mongoose": "^6.8.3",
-    "mongoose-type-phone": "^1.0.1",
+    "mongoose": "^7.0.5",
     "multer": "^1.4.5-lts.1",
-    "mysql": "^2.18.1",
     "nodemailer": "^6.9.1",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "socket.io": "^4.6.1",
-    "sqlite3": "^5.1.4",
-    "twilio": "^4.8.0",
-    "yargs": "^17.7.1"
+    "winston": "^3.8.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.22"
   }
 }

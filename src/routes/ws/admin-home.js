@@ -1,9 +1,11 @@
-import express from 'express';
-import { Server as HttpServer } from 'http';
-import { Server as Socket } from 'socket.io';
+import express from "express";
+import { Server as HttpServer } from "http";
+import { Server as Socket } from "socket.io";
 
-import { productosDao } from '../../daos/index.js';
-import { logger } from '../../utils/logger.js';
+import ProductsDAOMongoDB from "../../models/dao/Products.DAO.js";
+import logger from "../../config/winston.js";
+
+const productsApi = new ProductsDAOMongoDB();
 
 const app = express();
 const httpServer = new HttpServer(app);
@@ -11,12 +13,11 @@ const io = new Socket(httpServer);
 
 export default async function configurarSocket(socket) {
   // ---- PRODUCTOS ----
-  
   // carga de productos
-  socket.on('getProductsAdmin', async () => {
+  socket.on("getProductsAdmin", async () => {
     try {
       const productsDB = await getProducts();
-      socket.emit('products', productsDB);
+      socket.emit("products", productsDB);
     } catch (error) {
       logger.info(error);
     }
@@ -25,7 +26,7 @@ export default async function configurarSocket(socket) {
 
 async function getProducts() {
   try {
-    const productsDB = await productosDao.listarAll();
+    const productsDB = await productsApi.getAll();
     return productsDB;
   } catch (error) {
     logger.info(error);

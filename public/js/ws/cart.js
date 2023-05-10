@@ -1,9 +1,9 @@
 const socket = io();
 
-// Peticion  de productos
+// pedido de productos
 socket.emit("getItemsCart", userEmail);
 
-// carga de los productos
+// carga de productos
 socket.on("itemsCart", (cartItems) => {
   const container = document.getElementById("cartItems");
   if(cartItems.length){
@@ -13,7 +13,7 @@ socket.on("itemsCart", (cartItems) => {
     btnsDeleteCart();
     btnMakePurchase(userEmail);
   } else {
-    const html = `<p>Carrito Vacio</p>`;
+    const html = `<p>No hay productos en el carrito</p>`;
     container.innerHTML = html;
   } 
 });
@@ -34,7 +34,7 @@ function btnsDeleteCart() {
   }
 }
 
-// Realizar compra
+// realizar compra
 function btnMakePurchase(userEmail) {
   const btnPurchase = document.getElementById('btnPurchase');
   btnPurchase.addEventListener('click', async(e) =>{

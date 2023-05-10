@@ -1,6 +1,8 @@
 import { Router } from "express";
-import { getProfile } from "../controller/profile.Controllers.js";
+import { getProfile } from "../controllers/profile.Controllers.js";
 
-export const profile = new Router();
+const profileWebRouter = new Router();
 
-profile.get("/", getProfile);
+profileWebRouter.get("/profile", getProfile);
+
+export default profileWebRouter;

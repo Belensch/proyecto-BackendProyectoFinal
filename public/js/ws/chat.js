@@ -2,10 +2,8 @@ const socket = io();
 
 // carga del historial
 socket.emit("chatHistory", userEmail);
-console.log(userEmail);
 
-// enviar Message
-
+// enviar mensajes
 const sendMessage = document.getElementById('sendMessage');
 const bodyMessage = document.getElementById('bodyMessage')
 sendMessage.addEventListener('submit', async (e) => {
@@ -21,7 +19,7 @@ sendMessage.addEventListener('submit', async (e) => {
     bodyMessage.value = "";
 })
 
-// Actualizar CHAT 
+// actualizar chat
 socket.on("updateChat", (messagesDB) => {
     const container = document.getElementById("chat");
     if (messagesDB.length){

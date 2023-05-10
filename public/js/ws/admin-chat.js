@@ -1,13 +1,11 @@
 const socket = io();
 
-// carga de historial
-
+// carga del historial
 socket.emit("usersChatsHistory");
 
-// actualiza historial de chats
+// actualizar historial de chats
 socket.on("updateChatHistory", (usersChats) => {
     const container = document.getElementById("chats");
-    console.log(usersChats);
     if (usersChats.length) {
         const html = makeChats(usersChats);
         container.innerHTML = html;
@@ -18,7 +16,7 @@ socket.on("updateChatHistory", (usersChats) => {
     }
 });
 
-// boton enviar mensajes
+// btns enviar mensajes
 function makeBtnsSend() {
     const sendMessageList = document.getElementsByClassName("sendMessage");
 
@@ -40,11 +38,9 @@ function makeBtnsSend() {
             bodyMessage.value = "";
         });
     }
-} 
-
+}
 
 function makeChats(usersChats) {
-    console.log(usersChats);
     const html = usersChats
         .map((chat) => {
             return `<p class='my-1'>Chat con ${chat.email}</p>

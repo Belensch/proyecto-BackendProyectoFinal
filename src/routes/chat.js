@@ -1,6 +1,8 @@
-import { Router } from 'express';
-import { getChat } from '../controller/chat.Controllers.js';
+import { Router } from "express";
+import { getChat } from "../controllers/chat.Controllers.js";
 
-export const chat = new Router();
+const chatWebRouter = new Router();
 
-chat.get('/', getChat);
+chatWebRouter.get("/chat", getChat);
+
+export default chatWebRouter;
